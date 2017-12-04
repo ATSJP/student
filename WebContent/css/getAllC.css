@@ -1,0 +1,129 @@
+@CHARSET "UTF-8";
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-style: sans-serif;
+}
+
+body {
+	width: 95%;
+	height: 100%;
+	font-family: 'trebuchet MS', 'Lucida sans', Arial;
+	font-size: 14px;
+	color: #444;
+	margin: 40px auto;
+	background-image: url('../image/bg.jpg');
+	background-repeat: repeat;
+	background-origin: border-box;
+	background-position: right top;
+	background-attachment: fixed;
+}
+
+table {
+	/* IE7 and lower */
+	border-spacing: 0;
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+.bordered {
+	border: solid #333333 1px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 1px #ccc;
+	-moz-box-shadow: 0 1px 1px #ccc;
+	box-shadow: 0 1px 1px #ccc;
+}
+
+.bordered tr:hover {
+	background: #ccc;
+	-o-transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+.bordered td,.bordered th {
+	border-left: 1px solid #333333;
+	border-top: 1px solid #333333;
+	padding: 10px;
+	text-align: center;
+}
+
+.bordered th {
+	background-color: #dce9f9;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc),
+		to(#dce9f9));
+	background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+	background-image: -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+	background-image: -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+	background-image: -o-linear-gradient(top, #ebf3fc, #dce9f9);
+	background-image: linear-gradient(top, #ebf3fc, #dce9f9);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .8) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .8) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .8) inset;
+	border-top: none;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+}
+
+.page {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.page a,.page span {
+	text-decoration: none;
+	border: 1px solid #f9d52b;
+	padding: 5px 7px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.page a:hover,.page span:hover {
+	color: orange;
+}
+
+a:link {
+	color: #FFF;
+	text-decoration: none
+}
+
+a:visited {
+	color: #FFF;
+	text-decoration: none
+}
+
+a:hover {
+	color: #FFCC00;
+	text-decoration: underline
+}
+
+a:active {
+	color: #FFCC33;
+	text-decoration: none
+}
+
+a.de:link {
+	color: #FF0000;
+	text-decoration: none
+}
+
+a.de:visited {
+	color: #FF0000;
+	text-decoration: none
+}
+
+a.de:hover {
+	color: #FFCC00;
+	text-decoration: underline
+}
+
+a.de:active {
+	color: #FFCC00;
+	text-decoration: none
+}

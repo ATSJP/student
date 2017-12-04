@@ -1,0 +1,6 @@
+作者：sjp
+
+
+项目开发:ecclipse+tomcat7.0+mysql
+注意：jdk1.8.0
+将项目导入到eclipse中，并且将数据库文件导入到你的MySQL中，配置好tomcat7.0即可
